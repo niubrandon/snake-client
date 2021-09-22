@@ -14,19 +14,11 @@ const connect = () => {
     console.log(`successfully connected to game server`);
   });
 
-  conn.write("Name: GTR");
-
-  conn.write("Move: up");
-
-  conn.write("Move: up");
-
-  conn.write("Move: up");
-
-  setTimeout(() => conn.write("Move: left"), 2000);
+/*   setTimeout(() => conn.write("Move: left"), 2000);
 
   let internalFrist = setInterval(() => conn.write("Move: left"), 1000);
 
-  setTimeout(() => clearInterval(internalFrist), 5000);
+  setTimeout(() => clearInterval(internalFrist), 5000); */
 
 
   return conn;
