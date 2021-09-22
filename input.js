@@ -28,6 +28,10 @@ const handleUserInput = (data) => {
     connection.write("Move: down");
   } else if (data === "d") {
     connection.write("Move: right");
+  } else if (data === "t") {
+    connection.write("Say: I'm GTR!!!");
+  } else if (data === "f") {
+    connection.write("Say: I'm Brandon. Cheers!");
   }
 
 };
